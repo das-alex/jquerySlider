@@ -1,0 +1,53 @@
+.content {
+    width: 1200px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    margin: 50px auto;
+    box-shadow: 0 0 3px 1px #ccc;
+    justify-content: center;
+}
+
+.slider {
+    height: auto;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_of_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_of_thumbnails {
+    width: 95%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.slider_button {
+    cursor: pointer;
+}
+
+.arrow {
+    color: black;
+    font-size: 24pt;
+}
+
+.list_of_thumbnails {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.list_of_thumbnails li {
+    display: block;
+    margin-left: 10px;
+}
+
+.list_of_thumbnails li:first-child {
+    margin-left: 0;
+}
